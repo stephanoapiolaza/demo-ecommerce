@@ -21,3 +21,15 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# ignore everything in the "wp-data" directory, except:
+# ".keep" file
+wp-data/*
+!wp-data/.keep
+
+# ignore everything in the "wp-data" directory, except:
+# ".keep" file
+wp-app/*
+!wp-app/.keep
+
+.idea/*
